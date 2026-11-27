@@ -1,0 +1,16 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Throwaway scratch space (probes, experiments — never committed)
+/scratch/
+
+# Local plan archive (optional copies of agent plans — never committed)
+/plans/
+
+# Logs
+*.log
+
+# Editor / OS cruft
+.DS_Store

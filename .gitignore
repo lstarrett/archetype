@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Throwaway scratch space (probes, experiments — never committed)
+/scratch/
+
+# Local plan archive (optional copies of agent plans — never committed)
+/plans/
+
+# Editor / OS cruft
+.DS_Store

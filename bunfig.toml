@@ -1,0 +1,3 @@
+# The stack's tests under template/ belong to a scaffolded project, not to this repository.
+[test]
+root = "tests"

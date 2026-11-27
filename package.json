@@ -1,0 +1,17 @@
+{
+  "name": "archetype",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check . && prettier --check \"**/*.md\"",
+    "lint:fix": "biome check --write . && prettier --write \"**/*.md\""
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.6.9",
+    "@types/bun": "latest",
+    "prettier": "^3.9.10",
+    "typescript": "^5"
+  }
+}
